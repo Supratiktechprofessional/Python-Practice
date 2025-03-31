@@ -1,0 +1,11 @@
+# Print list in reverse order using a loop
+
+# Take user input as a space-separated list
+list1 = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+# Reverse the list
+new_list = reversed(list1)
+
+# Iterate and print the reversed list
+for item in new_list:
+    print(item)

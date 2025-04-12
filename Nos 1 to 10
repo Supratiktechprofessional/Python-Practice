@@ -1,0 +1,4 @@
+#Display numbers from 1 to 10 in a loop
+
+for num in range(-10, 0, 1):
+    print(num)

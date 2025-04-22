@@ -1,0 +1,14 @@
+##
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+##
+
+rows = int(input())
+
+for i in range(rows):  # Loop for rows
+    for j in range(rows):  # Loop for columns
+        print("*", end=" ")  
+    print()  
